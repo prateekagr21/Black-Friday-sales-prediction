@@ -1,7 +1,7 @@
 # Black-Friday-sales-prediction !!
 ## Analysis and Prediction of Black Friday Sales using Machine Learning Algorithms
 
-![black friday1](https://user-images.githubusercontent.com/73397927/138538703-82cc1b9c-f6f8-4e6c-95e1-5f874a4b5977.jpg)
+![black friday2](https://user-images.githubusercontent.com/73397927/138538859-af5d713c-679b-429d-98e5-9a9ccb0350d1.jpg)
 
 _Black Friday is an informal name used to describe the day after Thanksgiving. It's often the busiest
 shopping day of the year because it kicks off the holiday season. This season is crucial for the
@@ -25,7 +25,7 @@ to spend about 1,007 dollars each during the entire holiday season in 2018.<br><
 In 2020, shoppers plan to spend about a Thousand Dollars on gifts, decorations, food, and other
 purchases for themselves and their families._
 
-![black friday2](https://user-images.githubusercontent.com/73397927/138538859-af5d713c-679b-429d-98e5-9a9ccb0350d1.jpg)
+![black friday1](https://user-images.githubusercontent.com/73397927/138538703-82cc1b9c-f6f8-4e6c-95e1-5f874a4b5977.jpg)
 
 ## For Solving this Usecase, What I have done is :
 - Collected the data and organized it to form a meaningful dataset.
@@ -40,5 +40,47 @@ purchases for themselves and their families._
 ## Did Data Pre-Processing :
 - Using Label Encoder
 - and Standard Scaler
-<br> to fit and transform Numerical and Categorical Column values. 
+<br> to fit and transform Numerical and Categorical Column values.
+
+## And then I made my model for the Prediction :
+- Did Data Preprocessing.
+- Independent and Dependent Features.
+- Did Train-Test split
+
+
+# Trained my Model using :
+
+## _Linear Regressor_
+- Fitted the model.
+- predicted the test scores.
+- Plotted the prediction.
+- `Prediction plot gave a Normal Distribution curve.`
+- Plotted the Best fit line for the model...
+- Calculated Mean Absolute error and Root Mean Squared Error!
+
+
+## _Random Forest Regressor_
+- Fitted the model.
+- predicted the test scores.
+- Plotted the prediction.
+- `Prediction plot gave a Normal Distribution curve.`
+- Plotted the Important features which gave the prediction for the model...
+- Calculated Mean Absolute error and Root Mean Squared Error!
+
+
+## _XGBoost Regressor_
+- Fitted the model.
+- predicted the test scores.
+- Plotted the prediction.
+- `Prediction plot gave a Normal Distribution curve.`
+- Plotted the Important features which gave the prediction for the model...
+- Calculated Mean Absolute error and Root Mean Squared Error!
+
+![black friday3](https://user-images.githubusercontent.com/73397927/138539197-fa68c428-541d-43a6-a7bd-12a7fe9db214.jpg)
+
+
+## _And for the conclusion -_
+#### _From the above three trained Models, It can be seen that the XGBoost Regressor model performed better than theRandomForestRegressor and Linear Regressor Model._
+
+
 
