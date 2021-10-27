@@ -60,7 +60,7 @@ purchases for themselves and their families._
 
 
 ## _Random Forest Regressor_
-- Fitted the model.
+- Fitted the model.!!!!
 - predicted the test scores.
 - Plotted the prediction.
 - `Prediction plot gave a Normal Distribution curve.`
