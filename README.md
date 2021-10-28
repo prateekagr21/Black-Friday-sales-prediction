@@ -52,7 +52,7 @@ purchases for themselves and their families._
 
 ## _Linear Regressor_
 - Fitted the model.
-- predicted the test scores.
+- predicted the test scores and checked the same.
 - Plotted the prediction.
 - `Prediction plot gave a Normal Distribution curve.`
 - Plotted the Best fit line for the model...
